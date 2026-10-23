@@ -1,0 +1,11 @@
+name: Deploy to S3
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    name: Build and Upload to S3
+    runs-on: ubuntu-latest
+
+
